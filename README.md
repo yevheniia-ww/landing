@@ -17,6 +17,7 @@ Music Legends Hub - це односторінковий сайт, присвяч
 * CSS Grid
 * CSS-анімації та transitions
 * Робота з псевдоелементами `::before` та `::after`
+* GULP у якості постпрефіксера
 
 ## Основний функціонал
 
@@ -36,30 +37,5 @@ Music Legends Hub - це односторінковий сайт, присвяч
 
 Під час роботи над проєктом я використовувала допомогу ШІ, зокрема для пояснення складних моментів верстки, роботи з CSS Grid/Flexbox, псевдоелементами, а також для допомоги з JavaScript-логікою каруселі.
 
-## Структура проєкту
 
-```text
-project/
-├── index.html
-├── README.md
-├── css/
-│   └── style.css
-├── scss/
-│   ├── style.scss
-│   ├── _variables.scss
-│   ├── _reset.scss
-│   ├── _base.scss
-│   ├── _header.scss
-│   ├── _hero.scss
-│   ├── _about.scss
-│   ├── _discography.scss
-│   ├── _idol.scss
-│   ├── _awards.scss
-│   ├── _subscribe.scss
-│   └── _footer.scss
-├── js/
-│   └── script.js
-└── images/
-    └── project images
-```
 

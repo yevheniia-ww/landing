@@ -400,7 +400,6 @@ input:focus {
   display: flex;
   align-items: center;
   gap: 34px;
-  width: -moz-max-content;
   width: max-content;
   letter-spacing: 8px;
   font-family: "TT Trailers", sans-serif;
@@ -491,8 +490,7 @@ input:focus {
 .heroBottomRow {
   display: grid;
   grid-template-columns: 150px 1fr;
-  -moz-column-gap: 36px;
-       column-gap: 36px;
+  column-gap: 36px;
   align-items: start;
 }
 
@@ -522,10 +520,8 @@ input:focus {
   display: block;
   width: 100%;
   height: 520px;
-  -o-object-fit: cover;
-     object-fit: cover;
-  -o-object-position: center;
-     object-position: center;
+  object-fit: cover;
+  object-position: center;
 }
 
 .about {
@@ -535,8 +531,7 @@ input:focus {
 .aboutHeader {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  -moz-column-gap: 32px;
-       column-gap: 32px;
+  column-gap: 32px;
   row-gap: 80px;
   align-items: start;
   margin-bottom: 64px;
@@ -582,8 +577,7 @@ input:focus {
 .aboutGrid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  -moz-column-gap: 90px;
-       column-gap: 90px;
+  column-gap: 90px;
   row-gap: 80px;
   align-items: start;
 }
@@ -682,8 +676,7 @@ input:focus {
   display: block;
   width: 100%;
   height: 832px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   filter: grayscale(1);
 }
 
@@ -829,12 +822,10 @@ input:focus {
   left: 72px;
   display: grid;
   grid-template-columns: 44px 140px 360px;
-  -moz-column-gap: 18px;
-       column-gap: 18px;
+  column-gap: 18px;
   align-items: start;
   width: 202px;
   transition: width 0.35s ease, column-gap 0.35s ease;
-  transition: width 0.35s ease, column-gap 0.35s ease, -moz-column-gap 0.35s ease;
 }
 
 .albumCardTop .albumContent {
@@ -876,8 +867,7 @@ input:focus {
   grid-row: 1;
   width: 120px;
   height: 120px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   filter: brightness(0.9);
   transition: width 0.35s ease, height 0.35s ease, filter 0.35s ease;
 }
@@ -1030,7 +1020,6 @@ input:focus {
 }
 
 .idolTitle {
-  width: -moz-fit-content;
   width: fit-content;
   margin: 0 0 0 auto;
   font-family: "TT Trailers", sans-serif;
@@ -1052,7 +1041,6 @@ input:focus {
 
 .idolTitleLineSecond {
   display: block;
-  width: -moz-fit-content;
   width: fit-content;
   margin-left: auto;
 }
@@ -1089,7 +1077,6 @@ input:focus {
 
 .idolBgRow {
   display: flex;
-  width: -moz-max-content;
   width: max-content;
   animation: idolBgMove 14s linear infinite;
 }
@@ -1139,8 +1126,7 @@ input:focus {
   display: block;
   width: 100%;
   height: 480px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .idolBottom {
@@ -1148,8 +1134,7 @@ input:focus {
   z-index: 2;
   display: grid;
   grid-template-columns: minmax(0, 560px) 260px;
-  -moz-column-gap: 80px;
-       column-gap: 80px;
+  column-gap: 80px;
   align-items: stretch;
   width: 760px;
   margin-left: auto;
@@ -1179,8 +1164,7 @@ input:focus {
   display: block;
   width: 220px;
   height: 180px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .idolAlbumTitle {
@@ -1198,7 +1182,6 @@ input:focus {
   align-items: center;
   justify-content: center;
   gap: 20px;
-  width: -moz-fit-content;
   width: fit-content;
   min-width: 190px;
   height: 42px;
@@ -1242,8 +1225,7 @@ input:focus {
   display: block;
   width: 20px;
   height: 20px;
-  -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
   flex-shrink: 0;
 }
 
@@ -1261,13 +1243,11 @@ input:focus {
 }
 
 .idolTitleBlock {
-  width: -moz-fit-content;
   width: fit-content;
   margin-left: auto;
 }
 
 .idolTitleBlock .idolTitle {
-  width: -moz-fit-content;
   width: fit-content;
   margin-left: auto;
 }
@@ -1301,8 +1281,7 @@ input:focus {
 .awardsInner {
   display: grid;
   grid-template-columns: 80px minmax(0, 1fr);
-  -moz-column-gap: -80px;
-       column-gap: -80px;
+  column-gap: -80px;
   align-items: start;
   overflow: visible;
 }
@@ -1410,8 +1389,7 @@ input:focus {
   position: relative;
   display: grid;
   grid-template-columns: 90px 520px;
-  -moz-column-gap: 30px;
-       column-gap: 30px;
+  column-gap: 30px;
   align-items: center;
   justify-content: end;
   width: 100%;
@@ -1469,8 +1447,7 @@ input:focus {
   width: 84px;
   max-height: 125px;
   margin: 0 auto;
-  -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
 }
 
 .awardContent {
@@ -1589,7 +1566,6 @@ input:focus {
 
 .subscribeDecor span {
   display: block;
-  width: -moz-max-content;
   width: max-content;
   font-family: "TT Trailers", sans-serif;
   font-size: 96px;
@@ -1661,10 +1637,6 @@ input:focus {
   color: #1A1A1A;
 }
 
-.subscribeInput::-moz-placeholder {
-  color: rgba(0, 0, 0, 0.45);
-}
-
 .subscribeInput::placeholder {
   color: rgba(0, 0, 0, 0.45);
 }
@@ -1708,10 +1680,8 @@ input:focus {
   display: block;
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  -o-object-position: center;
-     object-position: center;
+  object-fit: cover;
+  object-position: center;
 }
 
 .footer {
@@ -1778,8 +1748,7 @@ input:focus {
 .footerNav {
   display: grid;
   grid-template-columns: 150px 190px 190px 1fr;
-  -moz-column-gap: 70px;
-       column-gap: 70px;
+  column-gap: 70px;
   align-items: start;
   margin-bottom: 120px;
 }
@@ -1857,8 +1826,7 @@ input:focus {
   display: block;
   width: 100%;
   height: 100%;
-  -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
   filter: brightness(0) invert(1);
 }
 
@@ -1982,8 +1950,7 @@ input:focus {
   }
   .heroBottomRow {
     grid-template-columns: 120px minmax(0, 1fr);
-    -moz-column-gap: 26px;
-         column-gap: 26px;
+    column-gap: 26px;
   }
   .heroLabel {
     width: 115px;
@@ -2087,8 +2054,7 @@ input:focus {
   .albumContent {
     left: 44px;
     grid-template-columns: 28px 110px minmax(0, 1fr);
-    -moz-column-gap: 14px;
-         column-gap: 14px;
+    column-gap: 14px;
   }
   .albumSlide.isActive .albumContent {
     width: calc(100% - 60px);
@@ -2198,8 +2164,7 @@ input:focus {
   }
   .awardItem {
     grid-template-columns: 70px minmax(0, 1fr);
-    -moz-column-gap: 20px;
-         column-gap: 20px;
+    column-gap: 20px;
     min-height: auto;
   }
   .subscribeHeader {
@@ -2367,8 +2332,7 @@ input:focus {
   }
   .aboutGrid {
     grid-template-columns: 120px minmax(0, 1fr);
-    -moz-column-gap: 16px;
-         column-gap: 16px;
+    column-gap: 16px;
     row-gap: 24px;
     align-items: start;
   }
@@ -2400,8 +2364,7 @@ input:focus {
   }
   .aboutImageWrapFirst .aboutImage {
     height: 220px;
-    -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
   }
   .aboutYearSecond {
     grid-column: 1;
@@ -2420,8 +2383,7 @@ input:focus {
   }
   .aboutImageWrapSecond .aboutImage {
     height: 220px;
-    -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
   }
   .aboutTextSecond {
     grid-column: 1/-1;
@@ -2485,8 +2447,7 @@ input:focus {
     width: calc(100% - 86px);
     display: grid;
     grid-template-columns: 110px minmax(0, 1fr);
-    -moz-column-gap: 18px;
-         column-gap: 18px;
+    column-gap: 18px;
     row-gap: 12px;
     align-items: start;
   }
@@ -2634,8 +2595,7 @@ input:focus {
   }
   .awardItem {
     grid-template-columns: 44px minmax(0, 1fr);
-    -moz-column-gap: 14px;
-         column-gap: 14px;
+    column-gap: 14px;
     min-height: auto;
     padding-right: 34px;
   }
@@ -2709,8 +2669,7 @@ input:focus {
     min-height: 220px;
   }
   .subscribeImage {
-    -o-object-position: center top;
-       object-position: center top;
+    object-position: center top;
   }
   .footer {
     padding: 56px 0;
@@ -2787,8 +2746,7 @@ input:focus {
   }
   .aboutGrid {
     grid-template-columns: 95px minmax(0, 1fr);
-    -moz-column-gap: 12px;
-         column-gap: 12px;
+    column-gap: 12px;
     row-gap: 20px;
   }
   .aboutLeftTop .aboutText {
@@ -2832,8 +2790,7 @@ input:focus {
     left: 48px;
     width: calc(100% - 60px);
     grid-template-columns: 92px minmax(0, 1fr);
-    -moz-column-gap: 12px;
-         column-gap: 12px;
+    column-gap: 12px;
   }
   .albumSlide.isActive .albumContent {
     width: calc(100% - 60px);
@@ -2871,8 +2828,7 @@ input:focus {
   }
   .awardItem {
     grid-template-columns: 42px minmax(0, 1fr);
-    -moz-column-gap: 12px;
-         column-gap: 12px;
+    column-gap: 12px;
     padding-right: 28px;
   }
   .awardItem:hover {
@@ -2993,8 +2949,7 @@ input:focus {
 @media (max-width: 1280px) {
   .aboutGrid {
     grid-template-columns: 170px minmax(0, 1fr);
-    -moz-column-gap: 28px;
-         column-gap: 28px;
+    column-gap: 28px;
     row-gap: 36px;
     align-items: start;
   }
@@ -3026,8 +2981,7 @@ input:focus {
   }
   .aboutImageWrapFirst .aboutImage {
     height: 360px;
-    -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
   }
   .aboutYearSecond {
     grid-column: 1;
@@ -3046,8 +3000,7 @@ input:focus {
   }
   .aboutImageWrapSecond .aboutImage {
     height: 360px;
-    -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
   }
   .aboutTextSecond {
     grid-column: 1/-1;
@@ -3100,8 +3053,7 @@ input:focus {
     width: calc(100% - 120px);
     display: grid;
     grid-template-columns: 150px minmax(0, 1fr);
-    -moz-column-gap: 24px;
-         column-gap: 24px;
+    column-gap: 24px;
     row-gap: 14px;
     align-items: start;
   }
@@ -3158,12 +3110,10 @@ input:focus {
     margin-top: 20px;
   }
   .idolTitleBlock {
-    width: -moz-fit-content;
     width: fit-content;
     margin-left: auto;
   }
   .idolTitleBlock .idolTitle {
-    width: -moz-fit-content;
     width: fit-content;
     margin-left: auto;
   }
@@ -3180,8 +3130,7 @@ input:focus {
 @media (max-width: 1024px) {
   .aboutGrid {
     grid-template-columns: 140px minmax(0, 1fr);
-    -moz-column-gap: 22px;
-         column-gap: 22px;
+    column-gap: 22px;
     row-gap: 30px;
   }
   .aboutYearFirst,
@@ -3221,8 +3170,7 @@ input:focus {
     left: 70px;
     width: calc(100% - 96px);
     grid-template-columns: 130px minmax(0, 1fr);
-    -moz-column-gap: 20px;
-         column-gap: 20px;
+    column-gap: 20px;
   }
   .albumSlide.isActive .albumContent {
     width: calc(100% - 96px);
@@ -3236,8 +3184,7 @@ input:focus {
 @media (max-width: 768px) {
   .aboutGrid {
     grid-template-columns: 120px minmax(0, 1fr);
-    -moz-column-gap: 16px;
-         column-gap: 16px;
+    column-gap: 16px;
     row-gap: 24px;
   }
   .aboutYearFirst,
@@ -3280,8 +3227,7 @@ input:focus {
     left: 58px;
     width: calc(100% - 78px);
     grid-template-columns: 110px minmax(0, 1fr);
-    -moz-column-gap: 16px;
-         column-gap: 16px;
+    column-gap: 16px;
   }
   .albumSlide.isActive .albumContent {
     width: calc(100% - 78px);
@@ -3322,8 +3268,7 @@ input:focus {
 @media (max-width: 480px) {
   .aboutGrid {
     grid-template-columns: 95px minmax(0, 1fr);
-    -moz-column-gap: 12px;
-         column-gap: 12px;
+    column-gap: 12px;
     row-gap: 20px;
   }
   .aboutYearFirst,
@@ -3360,8 +3305,7 @@ input:focus {
     left: 48px;
     width: calc(100% - 60px);
     grid-template-columns: 92px minmax(0, 1fr);
-    -moz-column-gap: 12px;
-         column-gap: 12px;
+    column-gap: 12px;
   }
   .albumSlide.isActive .albumContent {
     width: calc(100% - 60px);
@@ -3383,21 +3327,17 @@ input:focus {
 }
 @media (max-width: 1280px) {
   .aboutImageWrapFirst .aboutImage {
-    -o-object-position: center 18%;
-       object-position: center 18%;
+    object-position: center 18%;
   }
   .aboutImageWrapSecond .aboutImage {
-    -o-object-position: center 12%;
-       object-position: center 12%;
+    object-position: center 12%;
   }
 }
 @media (max-width: 480px) {
   .aboutImageWrapFirst .aboutImage {
-    -o-object-position: center 20%;
-       object-position: center 20%;
+    object-position: center 20%;
   }
   .aboutImageWrapSecond .aboutImage {
-    -o-object-position: center 10%;
-       object-position: center 10%;
+    object-position: center 10%;
   }
 }
